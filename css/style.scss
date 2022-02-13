@@ -103,6 +103,10 @@ section {
     font-weight: bold!important;
 }
 
+.nav-btns{
+    margin: .5rem;
+}
+
 .hero {
   height: 100vh;
   width: 100%;
@@ -147,7 +151,7 @@ section {
     height: 100vh;
     background: url("../imgs/hero-bg.png") no-repeat center center;
     background-size: contain;
-    margin: 0 1rem;
+    // margin: 0 1rem;
 }
 .nav-btns{
     button{
@@ -193,6 +197,10 @@ section {
 .awards{
     background-color: #fff;
     color: #000!important;
+
+    a{
+        text-decoration: none;
+    }
 }
 
 .white-head{
@@ -233,7 +241,7 @@ section {
     justify-content: center;
     .year-filters{
         button {
-            margin: 0 1rem;
+            margin: 1rem;
         }
     }    
     
@@ -264,6 +272,27 @@ section {
 }
 .desig{
     margin-top: -.5rem;
+}
+.card-cover {
+    border: 3px solid #000;
+}
+.lean-six{
+    background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/gV2rWrz/What-is-Six-Sigma-A-Complete-Overview.jpg) no-repeat center center;
+    background-size: cover;
+}
+.negotiate{
+    background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/ScWYBJm/Negotiate-Handshake-Credit-Pattanaphong-Khuankaew-i-Stock-886031704.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.business-english{
+    background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/SKHn88Q/business-english-1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.digital-branding{
+    background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/7b1FTjK/digital-branding-harmony.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 
