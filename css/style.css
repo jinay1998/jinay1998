@@ -172,11 +172,22 @@ section {
   margin-top: 2rem;
 }
 
-.social-links a {
-  border-radius: 3px;
-  background-color: #FF4545;
+.social-links i {
+  font-size: 2rem;
+  margin: 0.5rem;
   color: #fff;
-  padding: 1rem;
+  background-color: #FF4545;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  padding: .5rem;
+  border-radius: 5px;
+}
+
+.social-links i:hover {
+  color: white;
+  background-color: #395ed6;
+  -webkit-transform: scale(1.1) rotate(360deg);
+          transform: scale(1.1) rotate(360deg);
 }
 
 .hero-bg {
@@ -330,24 +341,52 @@ section {
   background: -webkit-gradient(linear, left top, left bottom, from(#6f6f6f6b), to(#000)), url(https://i.ibb.co/gV2rWrz/What-is-Six-Sigma-A-Complete-Overview.jpg) no-repeat center center;
   background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/gV2rWrz/What-is-Six-Sigma-A-Complete-Overview.jpg) no-repeat center center;
   background-size: cover;
+  -webkit-transition: all ease-out 200ms;
+  transition: all ease-out 200ms;
+}
+
+.lean-six:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .negotiate {
   background: -webkit-gradient(linear, left top, left bottom, from(#6f6f6f6b), to(#000)), url(https://i.ibb.co/ScWYBJm/Negotiate-Handshake-Credit-Pattanaphong-Khuankaew-i-Stock-886031704.jpg) no-repeat center center;
   background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/ScWYBJm/Negotiate-Handshake-Credit-Pattanaphong-Khuankaew-i-Stock-886031704.jpg) no-repeat center center;
   background-size: cover;
+  -webkit-transition: all ease-out 200ms;
+  transition: all ease-out 200ms;
+}
+
+.negotiate:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .business-english {
   background: -webkit-gradient(linear, left top, left bottom, from(#6f6f6f6b), to(#000)), url(https://i.ibb.co/SKHn88Q/business-english-1.jpg) no-repeat center center;
   background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/SKHn88Q/business-english-1.jpg) no-repeat center center;
   background-size: cover;
+  -webkit-transition: all ease-out 200ms;
+  transition: all ease-out 200ms;
+}
+
+.business-english:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .digital-branding {
   background: -webkit-gradient(linear, left top, left bottom, from(#6f6f6f6b), to(#000)), url(https://i.ibb.co/7b1FTjK/digital-branding-harmony.jpg) no-repeat center center;
   background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/7b1FTjK/digital-branding-harmony.jpg) no-repeat center center;
   background-size: cover;
+  -webkit-transition: all ease-out 200ms;
+  transition: all ease-out 200ms;
+}
+
+.digital-branding:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 @media only screen and (max-width: 700px) {

@@ -139,12 +139,23 @@ section {
 
 .social-links{
     margin-top: 2rem;
-    a{
-        border-radius: 3px;
-        background-color: #FF4545;
+
+    i {
+        font-size: 2rem;
+        margin: 0.5rem;
         color: #fff;
-        padding: 1rem;
-    }
+        background-color: #FF4545;
+        transition: all 500ms ease;
+        padding: .5rem;
+        border-radius: 5px;
+      }
+      i:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #395ed6;
+        transform: scale(1.1) rotate(360deg);
+      }
+    
+ 
 }
 
 .hero-bg {
@@ -279,21 +290,42 @@ section {
 .lean-six{
     background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/gV2rWrz/What-is-Six-Sigma-A-Complete-Overview.jpg) no-repeat center center;
     background-size: cover;
+    transition: all ease-out 200ms;
+
+    &:hover{
+        transform: scale(1.02)
+    }
 }
 .negotiate{
     background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/ScWYBJm/Negotiate-Handshake-Credit-Pattanaphong-Khuankaew-i-Stock-886031704.jpg) no-repeat center center;
     background-size: cover;
+    transition: all ease-out 200ms;
+
+    &:hover{
+        transform: scale(1.02)
+    }
 }
 
 .business-english{
     background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/SKHn88Q/business-english-1.jpg) no-repeat center center;
     background-size: cover;
+    transition: all ease-out 200ms;
+
+    &:hover{
+        transform: scale(1.02)
+    }
 }
 
 .digital-branding{
     background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/7b1FTjK/digital-branding-harmony.jpg) no-repeat center center;
     background-size: cover;
+    transition: all ease-out 200ms;
+
+    &:hover{
+        transform: scale(1.02)
+    }
 }
+
 
 
 
