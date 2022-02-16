@@ -8,25 +8,25 @@ toTop.addEventListener("click",()=> {
   window.scrollTo(0,0)
 })
 //Loading animations
-let animations = false;
+// let animations = false;
 
-let html = document.getElementById("html")
+// let html = document.getElementById("html")
 
-if(animations){
-  html.style.overflowY = "hidden"
-}
-else{
-  html.style.overflowY = "scroll"
-}
+// if(animations){
+//   html.style.overflowY = "hidden"
+// }
+// else{
+//   html.style.overflowY = "scroll"
+// }
 
 window.scrollTo(0,0)
 
-const animated = document.querySelector('.loading');
+//const animated = document.querySelector('.loading');
 
-animated.addEventListener('animationend', () => {
-  animated.style.display = "none"
-  html.style.overflowY = "scroll"
-});
+// animated.addEventListener('animationend', () => {
+//   animated.style.display = "none"
+//   html.style.overflowY = "scroll"
+// });
 
 ///Work Expansion
 let items = document.querySelectorAll(".list-group-item");
