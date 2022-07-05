@@ -4,8 +4,7 @@
 *::before {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
 }
 
@@ -15,43 +14,26 @@
   left: 0;
   height: 100vh;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: #fff;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   z-index: 11111;
-  color: #00000090;
+  color: rgba(0, 0, 0, 0.5647058824);
   font-size: 1rem;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .loading .rectangle {
   height: 5rem;
   width: 30rem;
   border: 3px solid #395ed6;
   border-radius: 3rem;
-  padding: .5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  padding: 0.5rem;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   margin: 1rem;
 }
-
 .loading .rectangle .circle {
   display: block;
   height: 4rem;
@@ -59,15 +41,9 @@
   border-radius: 50%;
   background-color: #FF4545;
   color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   -webkit-animation: loading 5s alternate;
           animation: loading 5s alternate;
 }
@@ -77,8 +53,7 @@
     background-color: #395ed6;
   }
   100% {
-    -webkit-transform: rotateX(0deg) translateX(600%);
-            transform: rotateX(0deg) translateX(600%);
+    transform: rotateX(0deg) translateX(600%);
     background-color: #395ed6;
   }
 }
@@ -88,12 +63,10 @@
     background-color: #395ed6;
   }
   100% {
-    -webkit-transform: rotateX(0deg) translateX(600%);
-            transform: rotateX(0deg) translateX(600%);
+    transform: rotateX(0deg) translateX(600%);
     background-color: #395ed6;
   }
 }
-
 .fa-heart:before {
   font-size: 2rem;
 }
@@ -117,7 +90,7 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .logo {
@@ -126,33 +99,25 @@ section {
 }
 
 .nav-btns {
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
 .hero {
   height: 100vh;
   width: 100%;
 }
-
 .hero .content-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .hero .content-div .content h1 {
   font-size: 4rem;
   font-weight: bold;
 }
-
 .hero .content-div .content .para {
   font-weight: 500;
-  color: #00000090;
+  color: rgba(0, 0, 0, 0.5647058824);
 }
-
 .hero .content-div .content ul {
   font-weight: 500;
   color: #000000;
@@ -160,34 +125,26 @@ section {
 
 .back {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .social-links {
   margin-top: 2rem;
 }
-
 .social-links i {
   font-size: 2rem;
   margin: 0.5rem;
   color: #fff;
   background-color: #FF4545;
-  -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: 5px;
 }
-
 .social-links i:hover {
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: #395ed6;
-  -webkit-transform: scale(1.1) rotate(360deg);
-          transform: scale(1.1) rotate(360deg);
+  transform: scale(1.1) rotate(360deg);
 }
 
 .hero-bg {
@@ -204,46 +161,35 @@ section {
   height: auto;
   background: #395ed6;
 }
-
 .work .work-head {
   color: #fff;
   margin-bottom: 3rem;
 }
-
 .work .list-group-item {
   background: #ffffff;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
   border-radius: 12px;
   margin: 0.5rem 0;
 }
 
 .down-arrow i {
   margin-left: 2rem !important;
-  -webkit-transition: -webkit-transform ease-in 200ms;
-  transition: -webkit-transform ease-in 200ms;
   transition: transform ease-in 200ms;
-  transition: transform ease-in 200ms, -webkit-transform ease-in 200ms;
 }
 
 .work-info {
   margin-top: 0.5rem;
-  -webkit-transition: -webkit-transform ease-in-out;
-  transition: -webkit-transform ease-in-out;
   transition: transform ease-in-out;
-  transition: transform ease-in-out, -webkit-transform ease-in-out;
 }
 
 .education .edu-head {
   margin-bottom: 3rem;
 }
-
 .education .edu-info {
   padding: 2rem;
   margin-bottom: 1rem;
   background: rgba(0, 0, 0, 0.03);
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 12px;
 }
 
@@ -251,7 +197,6 @@ section {
   background-color: #fff;
   color: #000 !important;
 }
-
 .awards a {
   text-decoration: none;
 }
@@ -264,18 +209,15 @@ section {
 .contact {
   background-color: #FF4545;
 }
-
 .contact .glass-effect {
   padding: 2rem;
   background: #000;
   border-radius: 1rem;
 }
-
 .contact .form-label {
   font-weight: bold;
   color: #fff;
 }
-
 .contact .btn-black {
   width: 100%;
   background-color: #395ed6;
@@ -286,22 +228,16 @@ section {
   color: #fff;
   background-color: #FF4545;
 }
-
 .gallery .img-div {
   width: 20rem;
-  margin: .8rem;
+  margin: 0.8rem;
   height: auto;
 }
 
 .buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .buttons .year-filters button {
   margin: 1rem;
 }
@@ -318,11 +254,9 @@ section {
 .testimonials {
   background-color: #395ED6;
 }
-
 .testimonials .col {
-  margin: 1rem .5rem;
+  margin: 1rem 0.5rem;
 }
-
 .testimonials .card-img-top {
   border-radius: 50%;
   max-width: 10rem;
@@ -330,7 +264,7 @@ section {
 }
 
 .desig {
-  margin-top: -.5rem;
+  margin-top: -0.5rem;
 }
 
 .card-cover {
@@ -338,61 +272,46 @@ section {
 }
 
 .lean-six {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6f6f6f6b), to(#000)), url(https://i.ibb.co/gV2rWrz/What-is-Six-Sigma-A-Complete-Overview.jpg) no-repeat center center;
-  background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/gV2rWrz/What-is-Six-Sigma-A-Complete-Overview.jpg) no-repeat center center;
+  background: linear-gradient(180deg, rgba(111, 111, 111, 0.4196078431), #000), url(https://i.ibb.co/gV2rWrz/What-is-Six-Sigma-A-Complete-Overview.jpg) no-repeat center center;
   background-size: cover;
-  -webkit-transition: all ease-out 200ms;
   transition: all ease-out 200ms;
 }
-
 .lean-six:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .negotiate {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6f6f6f6b), to(#000)), url(https://i.ibb.co/ScWYBJm/Negotiate-Handshake-Credit-Pattanaphong-Khuankaew-i-Stock-886031704.jpg) no-repeat center center;
-  background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/ScWYBJm/Negotiate-Handshake-Credit-Pattanaphong-Khuankaew-i-Stock-886031704.jpg) no-repeat center center;
+  background: linear-gradient(180deg, rgba(111, 111, 111, 0.4196078431), #000), url(https://i.ibb.co/ScWYBJm/Negotiate-Handshake-Credit-Pattanaphong-Khuankaew-i-Stock-886031704.jpg) no-repeat center center;
   background-size: cover;
-  -webkit-transition: all ease-out 200ms;
   transition: all ease-out 200ms;
 }
-
 .negotiate:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .business-english {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6f6f6f6b), to(#000)), url(https://i.ibb.co/SKHn88Q/business-english-1.jpg) no-repeat center center;
-  background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/SKHn88Q/business-english-1.jpg) no-repeat center center;
+  background: linear-gradient(180deg, rgba(111, 111, 111, 0.4196078431), #000), url(https://i.ibb.co/SKHn88Q/business-english-1.jpg) no-repeat center center;
   background-size: cover;
-  -webkit-transition: all ease-out 200ms;
   transition: all ease-out 200ms;
 }
-
 .business-english:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .digital-branding {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6f6f6f6b), to(#000)), url(https://i.ibb.co/7b1FTjK/digital-branding-harmony.jpg) no-repeat center center;
-  background: linear-gradient(180deg, #6f6f6f6b, #000), url(https://i.ibb.co/7b1FTjK/digital-branding-harmony.jpg) no-repeat center center;
+  background: linear-gradient(180deg, rgba(111, 111, 111, 0.4196078431), #000), url(https://i.ibb.co/7b1FTjK/digital-branding-harmony.jpg) no-repeat center center;
   background-size: cover;
-  -webkit-transition: all ease-out 200ms;
   transition: all ease-out 200ms;
 }
-
 .digital-branding:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 @media only screen and (max-width: 700px) {
   section {
     padding: 1rem;
   }
+
   .hero {
     height: 100%;
   }
@@ -402,12 +321,10 @@ section {
   .hero .container .content-div {
     text-align: center;
     font-size: 2.5rem !important;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .hero .container .content-div .content {
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
   }
   .hero .container .content-div .content h1 {
     font-size: 3rem;
@@ -416,19 +333,17 @@ section {
     font-size: 1rem;
     text-align: left !important;
   }
+
   .hero {
     height: 100%;
   }
+
   .contact .col, .hero .col {
-    -webkit-box-flex: 1;
-        -ms-flex: auto;
-            flex: auto;
+    flex: auto;
   }
 }
-
 @media (min-width: 1200px) {
   .display-6 {
     font-size: 2rem !important;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
